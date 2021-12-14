@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GSAP Christmas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Meow+Script&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <nav>
+        <img src="./src/snowflake.png" alt="Snowflake" />
+        <div class="container-nav">
+            <a href="#">Home</a>
+            <a href="#">Gifts</a>
+            <a href="#">Where is Santa now?</a>
+        </div>
+        <img src="./src/santa.png" alt="Santa" />
+    </nav>
+
+    <div class="home">
+        <div class="overlay"></div>
+        <video autoplay muted loop>
+        <source src="src/video.mp4" type="video/mp4" />
+      </video>
+        <div class="home-content">
+            <h1>Christmas is comming!</h1>
+            <div class="middle-line"></div>
+            <img src="./src/tree.png" alt="Christmas tree" />
+            <button>Track Santa</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="./js/animation.js"></script>
+</body>
+
+</html>
